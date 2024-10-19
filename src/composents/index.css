@@ -1,0 +1,46 @@
+/* index.css */
+header {
+    display: flex; /* Utilise flexbox pour disposer les éléments en ligne */
+    justify-content: space-between; /* Espace entre le logo et le menu */
+    align-items: center; /* Centre les éléments verticalement */
+    padding: 20px; /* Ajoute du padding autour du header */
+    
+  }
+  
+  nav ul {
+    list-style: none; /* Supprime les puces de la liste */
+    display: flex; /* Utilise flexbox pour disposer les éléments de la liste en ligne */
+    gap: 20px; /* Espace entre les éléments du menu */
+    margin: 0; /* Supprime la marge par défaut */
+    padding: 0; /* Supprime le padding par défaut */
+  }
+  
+  nav a {
+    text-decoration: none; /* Supprime le soulignement des liens */
+    color: #333; /* Couleur du texte des liens */
+  }
+  
+  nav a:hover {
+    text-decoration: underline; /* Ajoute un soulignement au survol */
+  }
+  
+Footer{
+    width: 100%;
+}
+
+
+/* index.css */
+
+footer {
+    width: 100%; /* Assure que le footer prend toute la largeur */
+    background-color: #f8f8f8; /* Couleur de fond (facultatif, changez selon vos besoins) */
+    display: flex; /* Utilise flexbox pour aligner le contenu, si nécessaire */
+    justify-content: center; /* Centre le contenu horizontalement */
+    padding: 20px 0; /* Ajoute du padding vertical autour du footer */
+  }
+  
+  footer img {
+    max-width: 100%; /* Assure que l'image s'adapte à la largeur du footer */
+    height: auto; /* Maintient les proportions de l'image */
+  }
+  
