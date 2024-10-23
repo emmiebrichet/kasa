@@ -1,12 +1,17 @@
-/* index.css */
+
 header {
+   
     display: flex; /* Utilise flexbox pour disposer les éléments en ligne */
     justify-content: space-between; /* Espace entre le logo et le menu */
     align-items: center; /* Centre les éléments verticalement */
     padding: 20px; /* Ajoute du padding autour du header */
-    
+    margin:50px;
   }
-  
+  img{ width: 210.32px;
+        height: 68px;
+
+  }
+
   nav ul {
     list-style: none; /* Supprime les puces de la liste */
     display: flex; /* Utilise flexbox pour disposer les éléments de la liste en ligne */
@@ -29,7 +34,6 @@ Footer{
 }
 
 
-/* index.css */
 
 footer {
     width: 100%; /* Assure que le footer prend toute la largeur */
@@ -44,3 +48,44 @@ footer {
     height: auto; /* Maintient les proportions de l'image */
   }
   
+
+  /* Fichier: Card.css */
+.property-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+  background-color:rgb(228, 217, 217) ;
+  margin: 50px;
+}
+
+.card {
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  background: linear-gradient(to bottom, #ff7f7f, #ff4d4d);
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card-image {
+  width: 100%;
+  height: 70%;
+  object-fit: cover;
+}
+
+.card-title {
+  color: white;
+  padding: 10px;
+  font-size: 1.2rem;
+  text-align: left;
+}

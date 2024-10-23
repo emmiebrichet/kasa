@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link } from '';
 import logo from '../assets/LOGO.png'; 
 import './index.css'; // Importez le fichier CSS ici
 
